@@ -20,9 +20,9 @@ public class Program {
 		double price = sc.nextDouble();
 		Product product = new Product(name, price);
 		
-		product.SetName("Computer");
+		product.setName("Computer");
 		System.out.println("Update Data: " + product.getName());
-		product.SetPrice(1200.00);
+		product.setPrice(1200.00);
 		System.out.println("Update price: " + product.getPrice());
 		
 		
