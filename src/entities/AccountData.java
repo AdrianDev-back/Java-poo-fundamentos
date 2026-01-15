@@ -3,7 +3,7 @@ package entities;
 public class AccountData {
 	
 	private int numberAccount;
-	public String name;
+	private String name;
 	public double initialDeposit;
 	public double deposit;
 	public double withdraw;
@@ -22,16 +22,31 @@ public class AccountData {
 		this.numberAccount = numberAccount;
 		this.name = name;
 		this.initialDeposit = initialDeposit;
-		this.balance = initialDeposit;	
+		deposit(initialDeposit);	
 	}
 	
+	public int getNumberAccount() {
+		return numberAccount;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setName (String name) {
+		this.name = name;
+	}
+	
+	public double getBalace() {
+		return balance;
+	}
 	
 	public void deposit(double amount) {
 		balance += amount;
 	}
 	
 	public void withdraw (double draw) {
-		balance += - draw - 5;
+		balance -= - draw - 5.0;
 	}
 	
 	public String toString() {
