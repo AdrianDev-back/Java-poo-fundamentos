@@ -45,8 +45,8 @@ public class AccountData {
 		balance += amount;
 	}
 	
-	public void withdraw (double draw) {
-		balance -= - draw - 5.0;
+	public void withdraw (double amount) {
+		balance += - amount - 5.0;
 	}
 	
 	public String toString() {

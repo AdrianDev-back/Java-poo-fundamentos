@@ -41,8 +41,8 @@ public class AccountBank {
 		
 		System.out.println();
 		System.out.print("Enter a withdraw value: ");
-		double withdraw = sc.nextDouble();
-		account.withdraw(withdraw);
+		double withdrawValue = sc.nextDouble();
+		account.withdraw(withdrawValue);
 		System.out.println("Updated account data: " + account.toString());
 		
 		
