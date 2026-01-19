@@ -1,0 +1,9 @@
+.metadata/
+.settings/
+.classpath
+.classpath.local
+.project
+ bin/
+*.class
+*.tar
+origin_url.txt
