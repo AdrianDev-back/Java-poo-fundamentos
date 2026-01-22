@@ -5,5 +5,3 @@
 .project
  bin/
 *.class
-*.tar
-origin_url.txt
