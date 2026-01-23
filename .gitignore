@@ -1,7 +1,14 @@
-.metadata/
-.settings/
+# Eclipse / java
+/bin/
+/.settings/
+/.metadata/
 .classpath
-.classpath.local
 .project
- bin/
 *.class
+
+# Windows / lixo
+NUL
+Thumbs.db
+.DS.Store
+
+ 
