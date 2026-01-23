@@ -5,6 +5,7 @@
 .classpath
 .project
 *.class
+.classpath.local
 
 # Windows / lixo
 NUL
