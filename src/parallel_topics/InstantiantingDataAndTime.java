@@ -29,9 +29,8 @@ public class InstantiantingDataAndTime {
 		LocalDateTime d11 = LocalDateTime.of(2026, 02, 06, 13, 44);
 		
 		
-		
-        // O toString dos 3 tipos de data-hora por padrao gera um texto
-	    // no formato ISO 8601.
+        // The toString of the 3 types to data-hora to standard creation a text
+	    // in format ISO 8601.
 		System.out.println("d01 = " + d01.toString()); 
 		System.out.println("d02 = " + d02);
 		System.out.println("d03 = " + d03);
