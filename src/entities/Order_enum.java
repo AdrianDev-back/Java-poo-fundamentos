@@ -42,4 +42,8 @@ public class Order_enum {
 	public void setStatus(OrderStatus status) {
 		this.status = status;
 	}
+	
+	public String toString() {
+		return "Order [id=" + id + ", moment=" + moment + ", status= " + status + "]";
+	}
 }
