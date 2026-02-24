@@ -20,6 +20,7 @@ public class ProgramEnum {
 		System.out.println(os1);
 		System.out.println(os2);
 		
+		
 	}
 
 }
