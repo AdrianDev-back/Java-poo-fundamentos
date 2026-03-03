@@ -7,7 +7,7 @@ public class ProgramStore {
 	public static void main(String[] args) {
 		
 		ProductStore p = new ProductStore("Tv", 1000.0);
-		ProductStore p2 = new ProductStore("Mouse", 40);
+		ProductStore p2 = new ProductStore("Mouse", 40.0);
 
 	}
 
