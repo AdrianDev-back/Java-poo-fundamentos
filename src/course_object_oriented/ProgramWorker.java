@@ -1,13 +1,6 @@
 package course_object_oriented;
 
 
-import java.util.Locale;
-import java.util.Scanner;
-
-import entities.Department;
-import entities.HourContract;
-import entities.Worker;
-import Entities_enums.WorkerLevel;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -26,8 +26,8 @@ public class CalendarManpulation {
 		
 		Calendar cal2 = Calendar.getInstance();
 		cal.setTime(d);
-		int minutes = cal.get(Calendar.MINUTE);
-		int month = 1 + cal.get(Calendar.MONTH);
+		int minutes = cal2.get(Calendar.MINUTE);
+		int month = 1 + cal2.get(Calendar.MONTH);
 		
 		System.out.println("Minutes: " + minutes);
 		System.out.println("Month: " + month);
