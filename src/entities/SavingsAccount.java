@@ -1,6 +1,6 @@
 package entities;
 
-public class SavingsAccount extends AccountH {
+public final class SavingsAccount extends AccountH {
 	
 	private Double interestRate;
 	
@@ -23,6 +23,11 @@ public class SavingsAccount extends AccountH {
 	
 	public void updateBalance() {
 		balance += balance * interestRate;
+	}
+	
+	@Override
+	public void withdraw(double amount) {
+		balance -= amount;
 	}
 
 }
