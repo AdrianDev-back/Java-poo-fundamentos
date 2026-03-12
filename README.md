@@ -7,7 +7,7 @@ Repositório de estudos e exercícios em Java com foco em Programação Orientad
 - Construtores
 - Métodos
 - Vetores / listas (exercícios)
-- Boas práticas de oeganização
+- Boas práticas de organização
 
 ## Tecnologias
 - Java
