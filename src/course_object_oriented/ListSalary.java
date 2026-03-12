@@ -34,8 +34,7 @@ public class ListSalary {
 			System.out.print("Salary: ");
 			double salary = sc.nextDouble();
 			
-			list.add(new
-					DataEmployee(id, name, salary));
+			list.add(new DataEmployee(id, name, salary));
 		}
 		
 		System.out.println();
