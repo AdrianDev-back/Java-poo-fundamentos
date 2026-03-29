@@ -19,7 +19,7 @@ public class ShapeCircle extends Shape {
 		return radius;
 	}
 	
-	public void setRadius(Double Radius) {
+	public void setRadius(Double radius) {
 		this.radius = radius;
 	}
 

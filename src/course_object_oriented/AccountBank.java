@@ -12,7 +12,7 @@ public class AccountBank {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Enter account number: ");
+		System.out.print("Ente account number: ");
 		int numberAccount = sc.nextInt();
 		sc.nextLine();
 		System.out.print("Enter account holder: ");

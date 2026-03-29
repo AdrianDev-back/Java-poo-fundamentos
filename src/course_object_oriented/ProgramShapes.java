@@ -23,6 +23,7 @@ public class ProgramShapes {
 		int n = sc.nextInt();
 		
 		for (int i = 1; i <= n; i++) {
+			System.out.println("Shape # " + i + " data: ");
 			System.out.print("Rectangle or Circle (r/c)? ");
 			char ch = sc.next().charAt(0);
 			System.out.print("Color (Black/Blue/Red): ");
@@ -40,14 +41,14 @@ public class ProgramShapes {
 				list.add(new ShapeCircle(color, radius));
 			}
 			
-			System.out.println();
-			System.out.println("SHAPE AREAS: ");
-			for (Shape sp : list) {
-				System.out.println(String.format("%.2f", sp.area()));
-				System.out.println(String.format("%.2f", sp.area()));
-			}
-			
 		}
+		
+		System.out.println();
+		System.out.println("SHAPE AREAS: ");
+		for (Shape shape : list) {
+			System.out.println(String.format("%.2f", shape.area()));
+		}
+		
 		
 
 		sc.close();
