@@ -9,7 +9,6 @@ import java.util.Locale;
 import java.util.Scanner;
 
 import entities.ImportedProductY;
-import entities.Product;
 import entities.ProductY;
 import entities.UsedProductY;
 

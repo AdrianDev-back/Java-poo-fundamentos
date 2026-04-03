@@ -27,7 +27,6 @@ public class CalculationWithDateHour {
 		System.out.println("nextWeekLocalDateTime = " + nextWeekLocalDateTime);
 		
 		Instant pastWeekInstant = d06.minus(7, ChronoUnit.DAYS);
-		Instant nextWeekInstant = d06.plus(7, ChronoUnit.DAYS);
 		
 		//Other alternative is d04.atTime(0, 0) hours and minutes.
 		Duration t1 = Duration.between(pastWeekLocalDate.atStartOfDay(), d04.atTime(0, 0));

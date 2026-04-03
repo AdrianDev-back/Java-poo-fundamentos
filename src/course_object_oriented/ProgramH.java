@@ -8,11 +8,13 @@ public class ProgramH {
 
 	public static void main(String[] args) {
 		
+		@SuppressWarnings("unused")
 		AccountH acc = new AccountH(1001, "Alex", 0.0);
 		BusinessAccountH bacc = new BusinessAccountH(1002, "Maria", 0.0, 500.0);
 		
 		// UPCASTING
 		
+		@SuppressWarnings("unused")
 		AccountH acc1 = bacc;
 		AccountH acc2 = new BusinessAccountH(1003, "Bob", 0.0, 200.0);
 		AccountH acc3 = new SavingsAccount(1004, "Anna", 0.0, 0.01);

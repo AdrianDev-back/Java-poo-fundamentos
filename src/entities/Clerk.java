@@ -1,15 +1,10 @@
 package entities;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Clerk {
 	
 	protected String name;
 	protected Integer hours;
 	protected Double valuePerHour;
-	
-	private List<Clerk> list = new ArrayList<Clerk>();
 	
 	public Clerk() {
 	}
