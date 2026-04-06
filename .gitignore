@@ -1,0 +1,13 @@
+# Eclipse
+.metadata/
+.project
+.classpath
+.classpath.local
+.settings/
+
+# build
+bin/
+
+# Outros
+
+*.class
