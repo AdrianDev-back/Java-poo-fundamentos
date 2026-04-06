@@ -1,15 +1,15 @@
-# Eclipse / java
-/bin/
-/.settings/
-/.metadata/
-.classpath
+# Eclipse
+.metadata/
 .project
-*.class
+.classpath
 .classpath.local
+.settings/
 
-# Windows / lixo
-NUL
-Thumbs.db
-.DS.Store
+# build
+bin/
+
+# Outros
+
+*.class
 
  
