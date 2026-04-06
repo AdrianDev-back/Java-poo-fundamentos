@@ -1,1 +1,15 @@
-.git_backup
+# Eclipse / java
+/bin/
+/.settings/
+/.metadata/
+.classpath
+.project
+*.class
+.classpath.local
+
+# Windows / lixo
+NUL
+Thumbs.db
+.DS.Store
+
+ 
