@@ -30,7 +30,7 @@ public class Invoice_Interface {
 	}
 	
 	public Double totalPayment() {
-		return getBasicPayment() - getTax();
+		return getBasicPayment() + getTax();
 	}
 	
 	
