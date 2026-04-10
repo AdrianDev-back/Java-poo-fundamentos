@@ -16,7 +16,7 @@ public class ContractService {
 	public void processContract(Contract contract, int months) {
 		double basicQuota = contract.getTotalValue() / months;
 		for (int i = 1; i <= months; i++) {
-			double updatedQuota = basicQuota + ops.Interest(basicQuota, i);
+			double updatedQuota = basicQuota + ops.interest(basicQuota, i);
 			double fullQuota = updatedQuota + ops.paymentFee(updatedQuota);
 			
 			Calendar cal = Calendar.getInstance();
