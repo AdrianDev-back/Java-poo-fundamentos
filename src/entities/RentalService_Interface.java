@@ -2,7 +2,7 @@ package entities;
 
 import java.time.Duration;
 
-import Interface.TaxService;
+import model.service.TaxService;
 
 public class RentalService_Interface {
 	

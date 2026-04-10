@@ -1,9 +1,11 @@
 package entities;
 
-import Interface.TaxService;
+import model.service.TaxService;
 
-public class BrazilTaxService_Interface implements TaxService {
-	
+public class BrazilTaxService_Interface implements TaxService
+{
+
+	@Override
 	public double tax(double amount) {
 		if (amount <= 100.0) {
 			return amount * 0.2;

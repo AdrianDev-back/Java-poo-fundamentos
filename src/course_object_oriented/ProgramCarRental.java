@@ -1,4 +1,4 @@
-package Interface;
+package course_object_oriented;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
