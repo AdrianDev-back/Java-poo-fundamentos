@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 import model.entities.Contract;
 import model.entities.ContractService;
+import model.entities.Installment;
 import model.service.PaypalService;
 
 public class ContractDatas {
@@ -26,13 +27,19 @@ public class ContractDatas {
 		String dateString = sc.nextLine();
 		System.out.print("Value contract: ");
 		double valueContract = sc.nextDouble();
-		System.out.println("Enter a number of installments: ");
+		System.out.print("Enter a number of installments: ");
 		int months = sc.nextInt();
 		
 		Contract contract = new Contract(number,sdf.parse(dateString), valueContract);
 		
 		ContractService cs = new ContractService(new PaypalService());
 		cs.processContract(contract, months);
+		
+		System.out.println("INSTALLMENTS:");
+		for (Installment installment : contract.getInstallments()) {
+			System.out.println(sdf.format(installment.getDueDate()) + "-" + String.format("%.2f", installment.getAmount()));
+			
+		}
 
 		
 		sc.close();
