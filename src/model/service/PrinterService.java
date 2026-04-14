@@ -1,6 +1,6 @@
 package model.service;
 
-public interface Printer {
+public interface PrinterService {
 
 	void print(String doc);
 }

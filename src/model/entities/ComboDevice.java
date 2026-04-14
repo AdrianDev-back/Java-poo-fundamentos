@@ -1,9 +1,9 @@
 package model.entities;
 
-import model.service.Printer;
-import model.service.Scanner;
+import model.service.PrinterService;
+import model.service.ScannerService;
 
-public class ComboDevice extends Device implements Scanner, Printer  {
+public class ComboDevice extends Device implements ScannerService, PrinterService  {
 	
 	public ComboDevice(String serialNumber) {
 		super(serialNumber);

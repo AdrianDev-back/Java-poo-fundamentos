@@ -1,8 +1,8 @@
 package model.entities;
 
-import model.service.Scanner;
+import model.service.ScannerService;
 
-public class ConcreteScanner extends Device implements Scanner{
+public class ConcreteScanner extends Device implements ScannerService{
 	
 	
 	public ConcreteScanner (String serialNumber) {

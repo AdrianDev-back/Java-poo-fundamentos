@@ -1,8 +1,8 @@
 package model.entities;
 
-import model.service.Printer;
+import model.service.PrinterService;
 
-public class ConcretePrinter extends Device implements Printer {
+public class ConcretePrinter extends Device implements PrinterService {
 	
 	public ConcretePrinter(String serialNumber) {
 		super(serialNumber);

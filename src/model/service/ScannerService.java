@@ -1,6 +1,6 @@
 package model.service;
 
-public interface Scanner {
+public interface ScannerService {
 	
 	String scan();
 
