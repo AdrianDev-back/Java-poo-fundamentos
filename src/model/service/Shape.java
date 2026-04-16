@@ -1,4 +1,4 @@
-package model.entities;
+package model.service;
 
 public interface Shape {
 	
