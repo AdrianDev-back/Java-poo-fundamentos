@@ -2,8 +2,8 @@ package course_object_oriented;
 
 import java.util.Date;
 
-import Entities_enums.OrderStatus;
 import entities.Order_enum;
+import model.enums.OrderStatus;
 
 public class ProgramEnum {
 

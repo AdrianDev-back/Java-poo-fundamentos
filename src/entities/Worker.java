@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-import Entities_enums.WorkerLevel;
+import model.enums.WorkerLevel;
 
 public class Worker {
 

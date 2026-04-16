@@ -1,4 +1,4 @@
-package Entities_enums;
+package model.enums;
 
 public enum OrderStatus {
 	

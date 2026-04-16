@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import Entities_enums.OrderStatusStore;
+import model.enums.OrderStatusStore;
 
 public class OrderStore {
 	

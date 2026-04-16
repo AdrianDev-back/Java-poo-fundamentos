@@ -2,7 +2,7 @@ package entities;
 
 import java.util.Date;
 
-import Entities_enums.OrderStatus;
+import model.enums.OrderStatus;
 
 public class Order_enum {
 	
