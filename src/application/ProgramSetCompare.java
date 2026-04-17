@@ -19,7 +19,7 @@ public class ProgramSetCompare {
 		System.out.println(set.contains(prod));
 		
 		//Nesse programa o resultado é falso pois a minha classe (Product) não possui hashCode e equals implementado
-		//sendo assim o HashSet compara somente as Referencias de memoria. set != prod.
+		//sendo assim o Set compara somente as Referencias de memoria. set != prod.
 
 		
 	}
