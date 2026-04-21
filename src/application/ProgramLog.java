@@ -41,6 +41,6 @@ public class ProgramLog {
 			System.out.println("Error: " + e.getMessage());
 		}
 
+		sc.close();
 	}
-
 }
