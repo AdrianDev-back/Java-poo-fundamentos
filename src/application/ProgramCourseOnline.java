@@ -32,6 +32,7 @@ public class ProgramCourseOnline {
 		int c = sc.nextInt();
 		
 		for (int i= 0; i < c; i++ ) {
+			
 		    int code = sc.nextInt();
 		    students.add(code);
 		}
