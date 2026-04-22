@@ -41,10 +41,10 @@ public class ProgramMap {
 		}
 		
 		for (String key : votes.keySet()) {
-			System.out.println(key + "; " + votes.get(key));
+			System.out.println(key + ": " + votes.get(key));
 		}
-		
-
+	
+		sc.close();
 	}
 
 }
