@@ -10,6 +10,7 @@ import model.entities.ProductFunction;
 
 
 
+@SuppressWarnings("unused")
 public class ProgramFunction {
 
 	public static void main(String[] args) {
